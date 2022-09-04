@@ -19,7 +19,6 @@ let storeValue = async () => {
     });
 
     client.on('error', function (e) {
-        console.log(e)
         console.log('Connected!');
     });
 
@@ -153,3 +152,4 @@ mongoose.connection.on('open', function (err) {
         console.log('database connection is open success ')
     }
 })
+
